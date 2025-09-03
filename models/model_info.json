@@ -1,0 +1,35 @@
+{
+  "model_path": "models/lgb_model_complete.pkl",
+  "model_only_path": "models/lgb_model.pkl",
+  "feature_columns": [
+    "Sex",
+    "Gallstone",
+    "Other",
+    "Ultrasond",
+    "Dilatation",
+    "GBMorphology",
+    "IntramuralNodule",
+    "GBMass",
+    "Line",
+    "LymphNodes",
+    "FIB",
+    "IBIL"
+  ],
+  "target_column": "Label",
+  "threshold": 0.30000000000000004,
+  "continuous_features": [
+    "FIB",
+    "IBIL"
+  ],
+  "training_info": {
+    "train_samples": 674,
+    "val_samples": 169,
+    "test_samples": 110,
+    "accuracy": 0.7818181818181819,
+    "auc": 0.8352272727272728,
+    "r_threshold": 0.4153,
+    "timestamp": "20250903_223619",
+    "feature_engineering": false,
+    "num_features": 12
+  }
+}
