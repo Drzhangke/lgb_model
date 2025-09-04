@@ -58,11 +58,11 @@ streamlit run app.py
 
 ### 临床特征
 - 性别(Sex)
-- 胆囊结石(Gallstone)
 - 其他疾病(Other)
 
 ### 影像特征
 - 超声回声(Ultrasound Echo)
+- 胆囊结石(Gallstone)
 - 胆管扩张(Biliary Duct Dilation)
 - 胆囊形态(Gallbladder Morphology)
 - 胆囊壁结节(Intramural Nodules)
